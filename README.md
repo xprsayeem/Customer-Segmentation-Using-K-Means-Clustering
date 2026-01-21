@@ -26,7 +26,7 @@ This dataset presents several real-world data quality challenges that make it id
 
 The methodology follows a five-step pipeline that transforms the raw data into interpretable and actionable customer segments.
 
-<img src="customer_segmentation_pipeline.png" alt="Customer Segmentation Pipeline" width="700">
+<img src="customer_segmentation_pipeline.png" alt="Customer Segmentation Pipeline" width="1000">
 
 ### Step 1: Loading and Preprocessing the Data
 
@@ -103,8 +103,8 @@ After applying K-Means clustering with k=4, the algorithm identified four distin
 | **Dormant** | 37.2% | 180 days | Low | Low | May already be lost |
 
 <p>
-  <img src="customer_segments_full.png" alt="Customer Segments - Full View" width="400">
-  <img src="customer_segments_zoomed.png" alt="Customer Segments - Zoomed" width="400">
+  <img src="Customer_Segments_Full.png" alt="Customer Segments - Full View" width="500">
+  <img src="Customer_Segments_Zoomed.png" alt="Customer Segments - Zoomed" width="500">
 </p>
 
 The visualization clearly displays the customer segments in a two-dimensional scatter plot with Frequency on the x-axis and Monetary value on the y-axis, with points color-coded by cluster assignment. Champions are clustered in the upper-right region (high frequency, high spending), while the Dormant customers are clustered near the origin (low frequency, low spending).
